@@ -30,8 +30,8 @@ app.get('/entrevista.html', function (req, res) {
    res.sendfile('./entrevista.html');
 });
 
-app.get('/crônica.html', function (req, res) {
-   res.sendfile('./crônica.html');
+app.get('/cronica.html', function (req, res) {
+   res.sendfile('./cronica.html');
 });
 
 app.get('/artigo.html', function (req, res) {
