@@ -200,7 +200,7 @@ header.masthead .page-heading .subheading, header.masthead .site-heading .subhea
 
 @media only screen and (min-width:768px) {
    header.masthead .page-heading h1, header.masthead .site-heading h1 {
-      font-size: 80px
+      font-size: 60px
    }
 }
 
@@ -214,7 +214,7 @@ header.masthead .post-heading .meta, header.masthead .post-heading .subheading {
 }
 
 header.masthead .post-heading .subheading {
-   font-size: 24px;
+   font-size: 22px;
    font-weight: 600;
    margin: 10px 0 30px;
    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
@@ -236,7 +236,7 @@ header.masthead .post-heading .meta a {
       font-size: 55px
    }
    header.masthead .post-heading .subheading {
-      font-size: 30px
+      font-size: 24px
    }
 }
 
