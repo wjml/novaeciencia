@@ -42,6 +42,10 @@ app.get('/noticias.html', function (req, res) {
    res.sendfile('./noticias.html');
 });
 
+app.get('/editorial.html', function (req, res) {
+   res.sendfile('./editorial.html');
+});
+
 app.listen(port, function () {
    console.log('Our app is running on http://localhost:' + port);
 });
