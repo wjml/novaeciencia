@@ -30,6 +30,18 @@ app.get('/entrevista.html', function (req, res) {
    res.sendfile('./entrevista.html');
 });
 
+app.get('/crônica.html', function (req, res) {
+   res.sendfile('./crônica.html');
+});
+
+app.get('/artigo.html', function (req, res) {
+   res.sendfile('./artigo.html');
+});
+
+app.get('/noticias.html', function (req, res) {
+   res.sendfile('./noticias.html');
+});
+
 app.listen(port, function () {
    console.log('Our app is running on http://localhost:' + port);
 });
