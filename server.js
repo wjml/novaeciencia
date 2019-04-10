@@ -26,6 +26,10 @@ app.get('/contact.html', function (req, res) {
    res.sendfile('./contact.html');
 });
 
+app.get('/entrevista.html', function (req, res) {
+   res.sendfile('./entrevista.html');
+});
+
 app.listen(port, function () {
    console.log('Our app is running on http://localhost:' + port);
 });
