@@ -491,3 +491,7 @@ div.center img {
    width: 170px;
    height: 50px;
 }
+
+.noback {
+   background-color: #ffffff !important;
+}
